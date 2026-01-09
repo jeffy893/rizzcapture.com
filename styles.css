@@ -38,14 +38,26 @@ body {
     align-items: center;
 }
 
-.logo h1 {
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-image {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo-text h1 {
     font-size: 1.8rem;
     font-weight: 700;
     color: #38bdf8;
     margin-bottom: 0.2rem;
 }
 
-.tagline {
+.logo-text .tagline {
     font-size: 0.9rem;
     color: #94a3b8;
     font-weight: 300;
@@ -1421,5 +1433,41 @@ a:focus, button:focus {
         opacity: 1;
         margin-bottom: 1rem;
         display: inline-block;
+    }
+}
+/* Logo Responsive Styles */
+@media (max-width: 768px) {
+    .logo {
+        gap: 0.75rem;
+    }
+    
+    .logo-image {
+        height: 40px;
+    }
+    
+    .logo-text h1 {
+        font-size: 1.5rem;
+    }
+    
+    .logo-text .tagline {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        gap: 0.5rem;
+    }
+    
+    .logo-image {
+        height: 35px;
+    }
+    
+    .logo-text h1 {
+        font-size: 1.3rem;
+    }
+    
+    .logo-text .tagline {
+        font-size: 0.75rem;
     }
 }
