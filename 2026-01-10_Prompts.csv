@@ -1,0 +1,64 @@
+Step,Phase,Prompt Content
+1,Initialize Steering, "I want to build a static website called RizCapture.com. Please initialize the project by creating a `.kiro/steering/` directory. I will provide the content for 'product.md', 'tech.md', and 'structure.md' in the next few prompts. Do not generate code yet, just create the directory."
+2,Define Product Vision (product.md), "Create `.kiro/steering/product.md` with the following content:
+
+# Product Vision: RizCapture
+**Mission:** To serve as a static reference model for the 'Jefferson Cloud Marketing Methodology'—a standardized approach to AI Resilience Architecture marketing.
+**Core Metaphor:** 'Trotlines, Nets, and Lures at Different Depths' (Fishing).
+**Goal:** A factual, de-identified reference site that justifies business expenses (networking, travel, R&D) by mapping them to standardized marketing frameworks.
+
+## The Methodology (The Fishing Metaphor)
+1. **Trotlines (The Long Game):** Automated, low-level scanning tools (e.g., LinguaLint, Cortext.io) that run in the background to catch opportunities.
+2. **Nets (The Forecast):** Predictive analytics (e.g., Water Audits, Housing Permits) that catch market shifts before they arrive.
+3. **Lures (Social Depth):** The 'Socialize, Decode, Consult' funnel.
+   - *Surface Depth:* Merchandise (books/cards).
+   - *Mid-Depth:* Singing/Poetry at events (filling space).
+   - *Deep Depth:* Dinner/Consulting (The Sands Club).
+
+## Key Concepts
+- **Guerrilla Marketing:** Omnipresence via standardized networking (Church, Sports, Clubs).
+- **Tactical Shorthand:** The protocol for rapid consultation handoffs.
+- **Symbolic Capital:** Quantifying reputation using Bourdieu’s 'Distinction'."
+3,Define Technology (tech.md), "Create `.kiro/steering/tech.md` with the following content:
+
+# Technology Stack
+- **Framework:** React with Vite (for speed and component reusability).
+- **Styling:** Tailwind CSS (for rapid, clean, professional UI).
+- **Deployment:** Static HTML export (ready for Netlify/AWS Amplify).
+- **Theme:** 'Fishing & Cloud'—clean blues, greys, and white. Minimalist, academic, and authoritative.
+
+## External Integrations (Header Only)
+- Socialize: https://jefferson.cloud
+- Decode: https://richards.systems
+- Consult: https://richards.plus"
+4,Define Structure (structure.md), "Create `.kiro/steering/structure.md` with the following content:
+
+# Site Map
+
+## 1. Home Page (Landing)
+- **Hero:** 'Riz Capture: AI Resilience Architecture'.
+- **Visual:** Abstract fishing lines connecting to a cloud.
+- **Navigation:** Socialize | Decode | Consult.
+- **Intro:** The 'Trotlines, Nets, and Lures' philosophy.
+
+## 2. Methodology Reference (The Core)
+- **Section A: The Cloud:** Explanation of the Jefferson Cloud ecosystem (Socialize/Decode/Consult).
+- **Section B: Tactics:**
+  - *Omnipresence:* LinkedIn allegories, physical networking.
+  - *The Buy-In:* Joining networks (Sands Club) and 'filling space' (Karaoke/Poetry).
+
+## 3. Frameworks (The Wiki)
+- A reference section mapping standard frameworks to this methodology.
+- **Page: The Symbolic Capital Intelligence Framework:**
+  - *Input:* PESTEL/Porter’s (Risk Radar).
+  - *Analysis:* Bourdieu’s Distinction (Responsibility Futures).
+  - *Strategy:* Ansoff Matrix (Growth).
+  - *Action:* 7Ps (Campaign Canvas).
+
+## 4. Case Study: LinguaLint
+- A factual breakdown of the LinguaLint product using the 'Symbolic Capital' framework."
+5,Generate Specs, "Now that the steering files are created, please generate the project Specs (`requirements.md`, `design.md`, `tasks.md`) based on the steering documents. Focus on creating a clean, high-performance static site."
+6,Build Home Page, "Execute the first set of tasks to build the Project Skeleton and the Home Page. Ensure the Header links (Socialize, Decode, Consult) are prominent and the 'Fishing' metaphor is visually represented in the Hero section."
+7,Build Frameworks Page, "Build the 'Frameworks' page. This should look like a documentation or Wiki page. It must detail the 'Symbolic Capital Intelligence Framework' table, explicitly referencing Bourdieu, Porter, and PESTEL as defined in `product.md`."
+8,Build Methodology Page, "Build the 'Methodology' page. Detail the 'Trotlines, Nets, and Lures' concept. Use a clean 3-column layout to distinguish the three depths. Include the section on 'Guerrilla Marketing' and 'Tactical Shorthand'."
+9,Final Polish, "Review the site. Ensure it feels 'Reference Quality' (like a government or academic resource). De-identify any specific personal phone numbers or emails in the body text (keep only the header links). Ensure the color palette matches the 'Cloud/Fishing' theme."

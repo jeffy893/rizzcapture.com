@@ -1,0 +1,36 @@
+# GitHub Pages Configuration for RizzCapture
+title: "RizzCapture - AI Resilience Architecture"
+description: "Static reference model for the Jefferson Cloud Marketing Methodology - Trotlines, Nets, and Lures at Different Depths"
+url: "https://username.github.io"  # Replace with your GitHub Pages URL
+baseurl: "/rizzcapture.com"  # Replace with your repository name
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - .DS_Store
+  - "*.csv"
+  - .kiro/
+
+# SEO settings
+author: "Jefferson Cloud"
+twitter:
+  username: # Add if applicable
+  card: summary_large_image
+
+# Social media and external links
+social_links:
+  - url: "https://jefferson.cloud"
+    title: "Socialize"
+  - url: "https://richards.systems"
+    title: "Decode"
+  - url: "https://richards.plus"
+    title: "Consult"
