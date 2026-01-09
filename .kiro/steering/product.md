@@ -8,7 +8,7 @@
 2. **Nets (The Forecast):** Predictive analytics (e.g., Water Audits, Housing Permits) that catch market shifts before they arrive.
 3. **Lures (Social Depth):** The 'Socialize, Decode, Consult' funnel.
    - *Surface Depth:* Merchandise (books/cards).
-   - *Mid-Depth:* Singing/Poetry at events (filling space).
+   - *Mid-Depth:* Events (singing/poetry/sports) at venues.
    - *Deep Depth:* Dinner/Consulting (The Sands Club).
 
 ## Key Concepts
