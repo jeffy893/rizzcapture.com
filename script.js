@@ -73,11 +73,18 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
         const scrolled = window.scrollY;
         const header = document.querySelector('.header');
+        const mainNav = document.querySelector('.main-nav');
         
         if (scrolled > 50) {
             header.classList.add('scrolled');
+            if (mainNav) {
+                mainNav.classList.add('scrolled');
+            }
         } else {
             header.classList.remove('scrolled');
+            if (mainNav) {
+                mainNav.classList.remove('scrolled');
+            }
         }
     });
     
