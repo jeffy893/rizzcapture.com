@@ -218,8 +218,6 @@ html {
     transition: all 0.3s ease;
     margin-top: -1px; /* Eliminate gap between header and nav */
     width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
 }
 
 .main-nav.scrolled {
@@ -229,9 +227,8 @@ html {
 .main-nav .nav-container {
     justify-content: center;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 0.5rem;
-    min-width: max-content;
     padding: 0 15px;
 }
 
@@ -515,17 +512,18 @@ html {
     
     .main-nav {
         top: 0;
-        padding: 0.75rem 0;
+        padding: 0.5rem 0;
     }
     
     .main-nav .nav-container {
-        justify-content: flex-start;
+        justify-content: center;
         gap: 0.25rem;
+        padding: 0 10px;
     }
     
     .nav-item {
-        padding: 0.5rem 0.75rem;
-        font-size: 0.85rem;
+        padding: 0.4rem 0.6rem;
+        font-size: 0.75rem;
         white-space: nowrap;
     }
     
@@ -601,11 +599,12 @@ html {
     
     .main-nav .nav-container {
         gap: 0.15rem;
+        padding: 0 5px;
     }
     
     .nav-item {
-        padding: 0.4rem 0.5rem;
-        font-size: 0.8rem;
+        padding: 0.35rem 0.4rem;
+        font-size: 0.7rem;
     }
 }
 
