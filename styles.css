@@ -214,7 +214,7 @@ body {
     padding: 1rem 0;
     position: sticky;
     top: 0;
-    z-index: 90;
+    z-index: 110;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
     margin-top: -1px; /* Eliminate gap between header and nav */
