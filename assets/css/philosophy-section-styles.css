@@ -1,0 +1,1092 @@
+/* Information Propagation Systems Section Styles */
+
+.propagation-systems {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.section-intro {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
+    color: #475569;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/* Platform Comparison */
+.platform-comparison {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.comparison-card {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.comparison-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-card.linkedin-logic {
+    border-left: 4px solid #0284c7;
+}
+
+.comparison-card.twitter-logic {
+    border-left: 4px solid #f97316;
+}
+
+.platform-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f1f5f9;
+}
+
+.platform-icon {
+    font-size: 2rem;
+}
+
+.platform-header h3 {
+    font-size: 1.5rem;
+    color: #0f172a;
+    margin: 0;
+}
+
+.logic-description,
+.characteristics,
+.strategic-use {
+    margin-bottom: 1.5rem;
+}
+
+.logic-description h4,
+.characteristics h4,
+.strategic-use h4 {
+    font-size: 1rem;
+    color: #0f172a;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.logic-description p,
+.strategic-use p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+.characteristics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.characteristics li {
+    color: #64748b;
+    padding: 0.4rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.characteristics li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #0284c7;
+    font-weight: bold;
+}
+
+.comparison-card.twitter-logic .characteristics li:before {
+    color: #f97316;
+}
+
+/* Graduation Journey */
+.graduation-journey {
+    margin: 4rem 0;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 16px;
+}
+
+.graduation-journey h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0f172a;
+    margin-bottom: 1rem;
+}
+
+.journey-intro {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
+    color: #475569;
+    line-height: 1.7;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+/* Phase Timeline */
+.phase-timeline {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.timeline-phase {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.timeline-phase:not(:last-child):after {
+    content: '';
+    position: absolute;
+    left: 75px;
+    top: 100px;
+    bottom: -50px;
+    width: 2px;
+    background: linear-gradient(180deg, #0284c7 0%, #f97316 100%);
+    opacity: 0.3;
+}
+
+.phase-marker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.phase-number {
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+}
+
+.phase-instagram .phase-number {
+    background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%);
+    box-shadow: 0 4px 12px rgba(168, 85, 247, 0.3);
+}
+
+.phase-twitter .phase-number {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+}
+
+.phase-icon {
+    font-size: 2rem;
+}
+
+.phase-content {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.phase-linkedin .phase-content {
+    border-left: 4px solid #0284c7;
+}
+
+.phase-instagram .phase-content {
+    border-left: 4px solid #a855f7;
+}
+
+.phase-twitter .phase-content {
+    border-left: 4px solid #f97316;
+}
+
+.phase-content h3 {
+    font-size: 1.8rem;
+    color: #0f172a;
+    margin-bottom: 0.5rem;
+}
+
+.phase-period {
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.phase-description p {
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.phase-achievements,
+.phase-strategy,
+.readiness-checklist,
+.why-now {
+    margin-top: 2rem;
+}
+
+.phase-achievements h4,
+.phase-strategy h4,
+.readiness-checklist h4,
+.why-now h4 {
+    color: #0f172a;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.phase-achievements ul,
+.why-now ul {
+    list-style: none;
+    padding: 0;
+}
+
+.phase-achievements li,
+.why-now ul li {
+    color: #475569;
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.phase-achievements li:before,
+.why-now ul li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.phase-lesson {
+    background: #f8fafc;
+    border-left: 4px solid #0284c7;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+.phase-instagram .phase-lesson {
+    border-left-color: #a855f7;
+}
+
+.phase-twitter .phase-lesson {
+    border-left-color: #f97316;
+}
+
+.phase-lesson strong {
+    color: #0f172a;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.phase-lesson p {
+    color: #475569;
+    margin: 0;
+}
+
+/* Strategy Grid */
+.strategy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.strategy-item {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.strategy-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.strategy-item h5 {
+    color: #0f172a;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.strategy-item p {
+    color: #64748b;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Readiness Checklist */
+.checklist-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.checklist-item {
+    display: flex;
+    gap: 1rem;
+    background: #f0fdf4;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #22c55e;
+}
+
+.check-icon {
+    font-size: 1.5rem;
+    color: #22c55e;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.check-content h5 {
+    color: #0f172a;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.check-content p {
+    color: #475569;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.why-now {
+    background: #fef3c7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #f59e0b;
+}
+
+.why-now p {
+    margin-bottom: 1rem;
+}
+
+.why-now .emphasis {
+    font-weight: 600;
+    color: #0f172a;
+    font-size: 1.05rem;
+    margin-top: 1.5rem;
+}
+
+/* Propagation Principle */
+.propagation-principle {
+    margin: 4rem 0;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border-radius: 16px;
+    color: white;
+}
+
+.propagation-principle h2 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 2rem;
+}
+
+.principle-statement {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.principle-quote {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #38bdf8;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.principle-explanation p {
+    color: #cbd5e1;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.function-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.function-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.function-card h4 {
+    color: #38bdf8;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.function-type {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.function-card p {
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+.principle-conclusion {
+    background: rgba(56, 189, 248, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #38bdf8;
+    margin-top: 2rem;
+}
+
+/* Cloud Integration */
+.cloud-integration {
+    margin: 4rem 0;
+    padding: 3rem 2rem;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.cloud-integration h2 {
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 1rem;
+}
+
+.integration-intro {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    text-align: center;
+    color: #475569;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.ecosystem-diagram {
+    max-width: 600px;
+    margin: 3rem auto;
+    position: relative;
+}
+
+.ecosystem-center {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.cloud-hub {
+    display: inline-block;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: white;
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(2, 132, 199, 0.3);
+}
+
+.cloud-hub h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.cloud-hub p {
+    color: #bae6fd;
+    font-size: 0.9rem;
+}
+
+.ecosystem-spokes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.spoke {
+    text-align: center;
+    padding: 1.5rem;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 2px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.spoke:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-spoke:hover {
+    border-color: #0284c7;
+}
+
+.instagram-spoke:hover {
+    border-color: #a855f7;
+}
+
+.twitter-spoke:hover {
+    border-color: #f97316;
+}
+
+.spoke-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.spoke p {
+    color: #0f172a;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.spoke-arrow {
+    color: #0284c7;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Three Part Objective */
+.three-part-objective {
+    margin-top: 3rem;
+}
+
+.three-part-objective h3 {
+    text-align: center;
+    color: #0f172a;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.objective-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.objective-card {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.objective-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.objective-letter {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: white;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
+.objective-card h4 {
+    color: #0f172a;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.objective-card p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .platform-comparison {
+        grid-template-columns: 1fr;
+    }
+    
+    .timeline-phase {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .timeline-phase:not(:last-child):after {
+        display: none;
+    }
+    
+    .phase-marker {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .strategy-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .function-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .ecosystem-spokes {
+        grid-template-columns: 1fr;
+    }
+    
+    .objective-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .propagation-systems {
+        padding: 2rem 0;
+    }
+    
+    .graduation-journey,
+    .propagation-principle,
+    .cloud-integration {
+        padding: 2rem 1rem;
+    }
+    
+    .phase-content {
+        padding: 1.5rem;
+    }
+    
+    .principle-quote {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Foundation Section Styles */
+.foundation-section {
+    padding: 4rem 0;
+    background: white;
+}
+
+.foundation-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0f172a;
+    margin-bottom: 2rem;
+}
+
+.foundation-content > p {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
+    color: #475569;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.foundation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.foundation-card {
+    background: #f8fafc;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.foundation-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-color: #22c55e;
+}
+
+.foundation-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.foundation-card h3 {
+    color: #0f172a;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.foundation-card p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+.foundation-lesson {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid #22c55e;
+}
+
+.foundation-lesson h3 {
+    color: #0f172a;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.foundation-lesson p {
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.foundation-lesson p:last-child {
+    margin-bottom: 0;
+}
+
+/* Snub Realization Section */
+.snub-realization {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+}
+
+.snub-realization h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0f172a;
+    margin-bottom: 3rem;
+}
+
+.snub-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.snub-quote {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.quote-text {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #7c3aed;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.snub-explanation p {
+    color: #475569;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.snub-impact {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid #7c3aed;
+    margin-top: 2rem;
+}
+
+.snub-impact h3 {
+    color: #0f172a;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.snub-impact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.snub-impact li {
+    color: #475569;
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.snub-impact li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #7c3aed;
+    font-weight: bold;
+}
+
+/* Digital Temperance Section */
+.digital-temperance {
+    padding: 4rem 0;
+    background: white;
+}
+
+.digital-temperance h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0f172a;
+    margin-bottom: 2rem;
+}
+
+.temperance-intro {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
+    color: #475569;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.temperance-principles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.temperance-card {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.temperance-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    border-color: #0284c7;
+}
+
+.temperance-card h3 {
+    color: #0f172a;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.temperance-card p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Lessons & Principles Section */
+.lessons-principles {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.lessons-principles h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0f172a;
+    margin-bottom: 3rem;
+}
+
+.lessons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.lesson-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.lesson-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    border-color: #0284c7;
+}
+
+.lesson-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.lesson-card h3 {
+    color: #0f172a;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.lesson-card p {
+    color: #475569;
+    line-height: 1.6;
+}
+
+/* Framework Integration Section */
+.framework-integration {
+    padding: 4rem 0;
+    background: white;
+}
+
+.framework-integration h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0f172a;
+    margin-bottom: 1rem;
+}
+
+.framework-integration .integration-intro {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
+    color: #475569;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.framework-mapping {
+    display: grid;
+    gap: 2rem;
+}
+
+.mapping-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.mapping-card.input-stage {
+    border-left: 4px solid #dc2626;
+}
+
+.mapping-card.analysis-stage {
+    border-left: 4px solid #7c3aed;
+}
+
+.mapping-card.strategy-stage {
+    border-left: 4px solid #059669;
+}
+
+.mapping-card.action-stage {
+    border-left: 4px solid #ea580c;
+}
+
+.stage-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    color: #475569;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.mapping-card.input-stage .stage-badge {
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+.mapping-card.analysis-stage .stage-badge {
+    background: #f3e8ff;
+    color: #7c3aed;
+}
+
+.mapping-card.strategy-stage .stage-badge {
+    background: #ecfdf5;
+    color: #059669;
+}
+
+.mapping-card.action-stage .stage-badge {
+    background: #fff7ed;
+    color: #ea580c;
+}
+
+.mapping-card h3 {
+    color: #0f172a;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.mapping-card > p {
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.philosophy-connection {
+    background: #f8fafc;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.philosophy-connection strong {
+    color: #0f172a;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.philosophy-connection {
+    color: #475569;
+}
+
+/* Responsive Design for New Sections */
+@media (max-width: 768px) {
+    .foundation-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .temperance-principles {
+        grid-template-columns: 1fr;
+    }
+    
+    .lessons-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .quote-text {
+        font-size: 1.5rem;
+    }
+    
+    .foundation-section h2,
+    .snub-realization h2,
+    .digital-temperance h2,
+    .lessons-principles h2,
+    .framework-integration h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .foundation-card,
+    .temperance-card,
+    .lesson-card,
+    .mapping-card {
+        padding: 1.5rem;
+    }
+    
+    .quote-text {
+        font-size: 1.2rem;
+    }
+}
