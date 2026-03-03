@@ -1843,3 +1843,164 @@ a:focus, button:focus {
     background-color: #333;
     border-color: #333;
 }
+
+
+/* Philosophy Showcase Section */
+.philosophy-showcase {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 50%, #e9d5ff 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.philosophy-showcase::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+}
+
+.philosophy-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.philosophy-text {
+    text-align: center;
+}
+
+.philosophy-intro {
+    font-size: 1.2rem;
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.philosophy-pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.pillar {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(168, 85, 247, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.pillar:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(168, 85, 247, 0.15);
+    border-color: rgba(168, 85, 247, 0.3);
+}
+
+.pillar-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.pillar h3 {
+    font-size: 1.5rem;
+    color: #7c3aed;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.pillar p {
+    color: #475569;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.philosophy-quote {
+    background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.2);
+}
+
+.philosophy-quote p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.philosophy-cta {
+    margin-top: 2rem;
+}
+
+.philosophy-cta .cta-button {
+    font-size: 1.1rem;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
+}
+
+.philosophy-cta .cta-button:hover {
+    background: linear-gradient(135deg, #6d28d9 0%, #9333ea 100%);
+    box-shadow: 0 6px 20px rgba(124, 58, 237, 0.4);
+}
+
+/* Responsive Design for Philosophy Showcase */
+@media (max-width: 768px) {
+    .philosophy-showcase {
+        padding: 3rem 0;
+    }
+    
+    .philosophy-pillars {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .philosophy-quote {
+        padding: 1.5rem 2rem;
+    }
+    
+    .philosophy-quote p {
+        font-size: 1.2rem;
+    }
+    
+    .pillar {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .philosophy-intro {
+        font-size: 1rem;
+    }
+    
+    .philosophy-quote {
+        padding: 1rem 1.5rem;
+    }
+    
+    .philosophy-quote p {
+        font-size: 1.1rem;
+    }
+    
+    .pillar-icon {
+        font-size: 2.5rem;
+    }
+    
+    .pillar h3 {
+        font-size: 1.3rem;
+    }
+}
