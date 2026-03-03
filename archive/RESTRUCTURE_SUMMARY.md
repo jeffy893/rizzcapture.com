@@ -206,7 +206,7 @@ The philosophy page integration (completed before restructure) added:
 - Cross-linking with framework pages
 
 Content documented:
-- 10+ years of grassroots Riz Capture (2014-2024)
+- 10+ years of grassroots Rizz Capture (2014-2024)
 - The Snub Realization philosophical foundation
 - Digital Temperance Framework (6 principles)
 - Platform Graduation journey (LinkedIn → Instagram → X)

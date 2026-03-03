@@ -14,7 +14,7 @@ RizzCapture is a comprehensive reference model for the Jefferson.Cloud Marketing
 - **Symbolic Capital Intelligence Framework** - Four-stage framework (Input, Analysis, Strategy, Action)
 - **Digital Temperance** - Healthy, intentional relationships with social media platforms
 - **Platform Graduation** - Strategic progression through information management systems
-- **Riz Capture** - Converting in-person charisma into scalable digital authority
+- **Rizz Capture** - Converting in-person charisma into scalable digital authority
 
 ## 🏗️ Project Structure
 
@@ -68,7 +68,7 @@ rizzcapture.com/
 
 - **[index.html](index.html)** - Homepage with methodology overview, framework library, and case study
 - **[philosophy.html](philosophy.html)** - Comprehensive philosophy documentation including:
-  - Grassroots Riz Capture (2014-2024)
+  - Grassroots Rizz Capture (2014-2024)
   - The Snub Realization
   - Digital Temperance Framework
   - Platform Graduation (LinkedIn → Instagram → X)
@@ -150,7 +150,7 @@ python3 -m http.server 8000
 4. **Phase 4**: X/Twitter (March 2026) - Graduation to propagation engines
 
 **Key Concepts**:
-- **Riz Capture**: Converting in-person charisma into digital portfolio assets
+- **Rizz Capture**: Converting in-person charisma into digital portfolio assets
 - **Digital Temperance**: Years-long development of healthy platform relationships
 - **The Snub Realization**: "Somebody might literally just be happier than you"
 - **Information Management Systems**: Understanding curated vs. propagation platforms
