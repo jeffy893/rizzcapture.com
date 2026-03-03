@@ -2,7 +2,7 @@
 
 User Identity: Jefferson (Age 32 in 2026).
 Core Professional Asset: Jefferson.cloud (and derivatives richards.plus, richards.systems, paradime.com).
-Core Concept: Riz Capture (Charisma Capture) - grassroots, iterative personal brand building.
+Core Concept: Rizz Capture (Charisma Capture) - grassroots, iterative personal brand building.
 
 1. THE OPERATIONAL FRAMEWORK (PLATFORM PROGRESSION)
 The user has followed a strict "graduated" methodology rather than using all platforms at once.
@@ -18,7 +18,7 @@ This methodology is driven by philosophical realizations and developed behaviora
 * The Snub Realization (Forgive but don't forget): "Somebody might literally just be happier than you." Acknowledge that other's joy is valid and separate from one's own self-esteem, balancing against the knowledge of shared human capacity for negativity.
 * Digital Temperance: Years of developing a healthy relationship with social media. Prioritizing authentic content generation over metrics. Intentional disconnection (no social apps on phone). Control over how much to engage based on internal will, not algorithms.
 * Propagation Systems vs. Curated Growth: Recognition of different platform logics. LinkedIn is curated; X is an "Agent-based viral signaling model" that can rapidly disseminate information or chew a user up and spit them out. One must have substance behind them before engaging propagation engines.
-* Riz Capture (Grassroots Charisma): Capturing in-person interaction quality (Riz/Charisma) into a digital portfolio to scale personal authority and trust.
+* Rizz Capture (Grassroots Charisma): Capturing in-person interaction quality (Rizz/Charisma) into a digital portfolio to scale personal authority and trust.
 
 3. ULTIMATE OBJECTIVE
 Utilize appropriate propagation channels to drive traffic back to Jefferson.cloud. By demonstrating consistent substance and establishing a trusted authority/experience, the user aims to:
