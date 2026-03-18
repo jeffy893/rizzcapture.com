@@ -1844,6 +1844,11 @@ a:focus, button:focus {
     border-color: #333;
 }
 
+.social-link.x-twitter:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
 
 /* Philosophy Showcase Section */
 .philosophy-showcase {
